@@ -18,6 +18,8 @@ function App() {
   const [emailError, setEmailError] = useState("");
   const [nameError, setNameError] = useState("");
 
+  console.count("renders");
+
   function handleSubmit(event) {
     event.preventDefault(); // we krijgen geen pagina terug!
 
